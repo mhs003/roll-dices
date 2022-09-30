@@ -1,0 +1,88 @@
+* {
+    font-family: Ubuntu Mono;
+    color: rgb(0, 255, 17);
+}
+
+body {
+    background-color: rgb(38, 38, 38);
+    max-width: 900px;
+    margin: auto;
+}
+
+Loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(28, 28, 28);
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+}
+
+.hidden {
+    display: none;
+}
+
+GameStatus {
+    font-size: 7em;
+    font-family: Z003;
+    text-align: center;
+    margin: 70px 0 20px 0;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.btn-holder {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-holder button {
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: rgba(52, 51, 51, 0.615);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-holder button:hover {
+    background-color: rgba(71, 71, 71, 0.615);
+}
+
+.dice-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.left-dice, .right-dice {
+    background-color: rgba(52, 50, 50, 0.616);
+    border-radius: 30px;
+}
+
+.win {
+    background-color: rgba(166, 17, 67, 1);
+}
+
+.dice-area h3 {
+    text-align: center;
+    margin: 0;
+    padding: 19px 0;
+}
+
+.dice-area img {
+    display: block;
+    border-radius: 30px;
+    width: 250px;
+    aspect-ratio: 1/1;
+}
